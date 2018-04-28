@@ -29,7 +29,10 @@ import android.view.MenuItem;
 import android.view.SubMenu;
 import android.view.View;
 
-
+/**
+ * Edited by Ordu Goodhope on 28/04/2018
+ * Profile: github.com/Goody-h
+ */
  class ActionMenuItem implements SupportMenuItem {
 
 
@@ -281,12 +284,6 @@ import android.view.View;
      @Override
      public MenuItem setOnActionExpandListener(MenuItem.OnActionExpandListener listener) {
          throw new UnsupportedOperationException();
-     }
-
-     @Override
-     public SupportMenuItem setSupportOnActionExpandListener(MenuItemCompat.OnActionExpandListener listener) {
-         // No need to save the listener; ActionMenuItem does not support collapsing items.
-         return this;
      }
 
      @Override
