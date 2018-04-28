@@ -8,8 +8,10 @@
     tools:ignore="UseCompoundDrawables">
 
     <ImageView
-        style="@style/BottomSheet.GridItemImage"
         android:id="@+id/bs_list_image"
+        style="@style/BottomSheet.GridItemImage"
+        android:alpha="0.7"
+        android:padding="5dp"
         tools:ignore="ContentDescription" />
 
     <TextView
